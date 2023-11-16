@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    
+}
+
+.left-side{
+    width: 30%;
+   
+    background-color: greenyellow;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 20px;
+}
+
+.right-side{
+    width: 70%;
+    height: 110vh;
+    background-color: rgb(234, 231, 231);
+    padding: 40px;
+    
+}
+.dp{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.line{
+    width: 100px;
+    margin-top: 10px;
+    height: 4px;
+    background-color: purple;
+    border-radius: 10px;
+}
+.deg{
+    margin-top: 10px;
+}
+
+
+.details{
+    margin-right: 140px;
+    margin-top: 20px;
+}
+
+.pr-detail{
+    align-self: flex-start;
+    margin-left: 80px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.skill-con{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 180px;
+    margin-top: 10px;
+}
+
+.outer{
+    margin-top: 10px;
+    width: 150px;
+    height: 10px;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgb(218, 194, 218);
+}
+.inner{
+    position: absolute;
+
+    width: 130px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(189, 24, 189)
+
+}
+
+.css-bar{
+    width: 140px;
+}
+
+.js-bar{
+    width: 100px;
+}
+
+.react{
+ width: 140px;
+}
+.prof{
+    padding: 20px 0;
+}
+
+.uni{
+
+    margin-bottom: 10px;
+}
